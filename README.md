@@ -48,4 +48,4 @@ Per week deadlines (we create goals per week that we want done by these dates):
 
 ## Documentation
 
-Shared doc: https://docs.google.com/document/d/1DGzyicRsy-nM01x5gnvV5b20e7JH9p6mDxlYLouCEVY/edit?usp=sharing
+*For now empty*
