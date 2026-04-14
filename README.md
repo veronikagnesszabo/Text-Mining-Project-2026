@@ -1,6 +1,10 @@
 # Text-Mining-Project-2026 on Sentiment Analysis / Polarization in Ted Talks
 
-
+***Group Members***
+Veronika Szabo
+Elijus Sinkeviciute
+Ziyu Zhou
+Tianrun Wang
 
 
 ## Abstract
