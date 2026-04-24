@@ -50,6 +50,16 @@ Per week deadlines (we create goals per week that we want done by these dates):
 | 18th May | Report done, presentation rehearsed |
 | 22nd May | **Presentation** |
 
+27th April - Update 1 - Cleaning, Preprocessing & Theme Groups Defined
+
+Goal: Clean data and theme groups are locked in
+----------------
+| Person | Deliverables |
+|------|-------|
+| Tianrun | Parse tags column, run full tag frequency analysis, propose final theme groups (tags appearing 50+ times), remove duplicates and null transcripts |
+| Camellia | Build and test full preprocessing pipeline — tokenisation, stopword removal, lemmatisation — on a sample of 50 talks |
+| Veronika | Run VADER and NRC Lexicon on a small sample (one theme group) as a proof of concept, share results with group |
+| Elijus | Build exploratory visualisations — top 20 tags bar chart, talk distribution across theme groups, transcript length distribution |
 ## Documentation
 
 *For now empty*
