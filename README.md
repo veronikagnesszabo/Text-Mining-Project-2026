@@ -51,9 +51,9 @@ Per week deadlines (we create goals per week that we want done by these dates):
 | 22nd May | **Presentation** |
 
 27th April - Update 1 - Cleaning, Preprocessing & Theme Groups Defined
-
-Goal: Clean data and theme groups are locked in
 ----------------
+Goal: Clean data and theme groups are locked in
+
 | Person | Deliverables |
 |------|-------|
 | Tianrun | Parse tags column, run full tag frequency analysis, propose final theme groups (tags appearing 50+ times), remove duplicates and null transcripts |
