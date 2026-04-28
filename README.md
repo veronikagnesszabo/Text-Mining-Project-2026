@@ -83,6 +83,19 @@ Goal: Clean data and theme groups are locked in
 ## Notes on Progress 
 All the notebooks related to the progress can be found in the folder 'notebooks'. 
 
-So far we have been able to create a full set-up, which included exploration of the data and decision on sentiment analysis methodology. These include the use of Roberta, VADER and NRC Lexicon. These tasks were completed in the first week. In the second week we begun cleaning the data and sorting the theme groups , the preprocessing and parsing notebooks can also be found in the 'notebooks' folder. The jupyter notebook running a test run was had some issues with being uploaded which I (Veronika) haven't found a solution for. 
+So far we have been able to create a full set-up, which included exploration of the data and decision on sentiment analysis methodology. These include the use of Roberta, VADER and NRC Lexicon. These tasks were completed in the first week. In the second week we begun cleaning the data and sorting the theme groups, the preprocessing and parsing notebooks can also be found in the 'notebooks' folder. The jupyter notebook running a test run was had some issues with being uploaded which I (Veronika) haven't found a solution for.
+
+Decisions for sentiment analysis: I (Veronika) lookinitially looked at only NRC Lexicon and VADER only however, looking into research and set up of the methodology I found that neither score highly on being able to identify neutral sentences. I therefore found Roberta as an alternative solution. In particular while looking at our research questions. 
+
+RQ1a: Classification of emotional sentiment (positive, negative and neutral) -> roberta base sentiment latest
+
+RQ1b: Classification into main emotion groups: NRC Lexicon (In our research question we wanted the main 5 emotions but since NRC Lexicon has 8 I decided to alter the RQ). Additionaly NRC Lexicon has been used in previous literature to categorise Ted talks in specific sentiments. 
+
+RQ3: VADER for polarization and Roberta 
+
+Originally, we planned for Eljuis to do the exploratory visualizations, but Tianrun had already done them, so insted he went over and cleaned up Tianrun's notebook because it didn’t execute fully. He also updated the README to elaborate on project layout and requirements.
+
+
+
 
 
