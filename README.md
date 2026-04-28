@@ -23,6 +23,25 @@ Emobank: https://github.com/julielab/emobank ( further emotion datasets to be ex
 
 For now we have chosen EmoBank as a training/evaluation data set for the Ted Talk dataset. However, we would like to further explore other options within the first week of the project by looking at past research and searching the web (In particular VADER,TextBlob and NRC Lexicon). The EmoBank data set has been chosen as a preliminary dataset as it contains both emotional tags of intented emotions of the writer and the perceived emotions of the readers which we though would be useful for the second and third research question. 
 
+## Project Structure
+The repository is organized to separate raw data, processed data, notebooks, reusable code, outputs, and final reporting materials.
+
+```text
+TEXT-MINING-PROJECT-2026/
+├── data/
+│   ├── raw/           # Original input data
+│   ├── external/      # External supporting datasets and 
+│   └── processed/     # Cleaned and transformed data ready for analysis or interim files
+├── notebooks/
+├── src/               # Reusable scripts and helper modules
+├── outputs/           # Generated charts, tables, and intermediate outputs
+├── results/           # Final results, metrics, and model outputs
+├── report/            # Written report, notes, and presentation material
+├── result/            # Interim files or finding yet to have been discussed
+├── .gitignore         # Makes sure that /processed files arent uploaded
+└── README.md
+```
+
 ## A tentative list of milestones for the project
 **Delegation of tasks for week 1:**
 
