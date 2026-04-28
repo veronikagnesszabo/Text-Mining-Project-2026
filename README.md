@@ -78,8 +78,11 @@ Goal: Clean data and theme groups are locked in
 |------|-------|
 | Tianrun | Parse tags column, run full tag frequency analysis, propose final theme groups (tags appearing 50+ times), remove duplicates and null transcripts |
 | Camellia | Build and test full preprocessing pipeline — tokenisation, stopword removal, lemmatisation — on a sample of 50 talks |
-| Veronika | Run VADER and NRC Lexicon on a small sample (one theme group) as a proof of concept, share results with group |
+| Veronika | Run VADER and NRC Lexicon on a small sample as a proof of concept, share results with group |
 | Elijus | Build exploratory visualisations — top 20 tags bar chart, talk distribution across theme groups, transcript length distribution |
-## Documentation
+## Notes on Progress 
+All the notebooks related to the progress can be found in the folder 'notebooks'. 
 
-*For now empty*
+So far we have been able to create a full set-up, which included exploration of the data and decision on sentiment analysis methodology. These include the use of Roberta, VADER and NRC Lexicon. These tasks were completed in the first week. In the second week we begun cleaning the data and sorting the theme groups , the preprocessing and parsing notebooks can also be found in the 'notebooks' folder. The jupyter notebook running a test run was had some issues with being uploaded which I (Veronika) haven't found a solution for. 
+
+
