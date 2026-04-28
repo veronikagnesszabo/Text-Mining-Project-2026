@@ -95,6 +95,8 @@ RQ3: VADER for polarization and Roberta
 
 Originally, we planned for Eljuis to do the exploratory visualizations, but Tianrun had already done them, so insted he went over and cleaned up Tianrun's notebook because it didn’t execute fully. He also updated the README to elaborate on project layout and requirements.
 
+For the preprocessing part, I（camellia） built and tested a full pipeline on a sample of 50 talks. This included tokenisation, stopword removal and lemmatisation using spaCy. The pipeline ran without issues and the output has been saved to results/preprocessed_sample.csv. The notebook can be found in the notebooks folder.
+
 
 
 
