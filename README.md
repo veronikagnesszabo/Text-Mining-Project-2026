@@ -97,7 +97,20 @@ Originally, we planned for Eljuis to do the exploratory visualizations, but Tian
 
 For the preprocessing part, I（camellia） built and tested a full pipeline on a sample of 50 talks. This included tokenisation, stopword removal and lemmatisation using spaCy. The pipeline ran without issues and the output has been saved to results/preprocessed_sample.csv. The notebook can be found in the notebooks folder.
 
+## Update 2
+**4th May — Full Analysis Running**
 
+Goal: Sentiment and emotion scores computed for all theme groups
+
+| Person | Deliverables |
+|------|-------|
+| Tianrun | Apply theme group mapping to full dataset, produce final grouped dataset with one row per talk, confirm no data issues |
+| Camellia | Apply preprocessing pipeline to all transcripts, deliver clean text column ready for analysis |
+| Veronika | Run full sentiment analysis (VADER) and emotion mapping (NRC Lexicon) across all theme groups, compute polarisation scores (variance of sentiment per group) |
+| Elijus | Begin building core result visualisations — sentiment bar charts per group, initial emotion breakdowns |
+## Notes on Progress 
+
+For the 4th May deliverable, I(Camellia) applied the preprocessing pipeline to all 2550 transcripts. The output is a clean text column saved as preprocessed_full.csv in the results folder.
 
 
 
