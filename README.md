@@ -101,16 +101,23 @@ For the preprocessing part, I（camellia） built and tested a full pipeline on 
 **4th May — Full Analysis Running**
 
 Goal: Sentiment and emotion scores computed for all theme groups
+ This week we aimed to run the first full set of sentiment analysis on the whole sample. However, due to various issues that we came across with coding, our wish for this deadline was not reached.
 
-| Person | Deliverables |
-|------|-------|
-| Tianrun | Apply theme group mapping to full dataset, produce final grouped dataset with one row per talk, confirm no data issues |
-| Camellia | Apply preprocessing pipeline to all transcripts, deliver clean text column ready for analysis |
-| Veronika | Run full sentiment analysis (VADER) and emotion mapping (NRC Lexicon) across all theme groups, compute polarisation scores (variance of sentiment per group) |
-| Elijus | Begin building core result visualisations — sentiment bar charts per group, initial emotion breakdowns |
 ## Notes on Progress 
+ Instead at the beginning of the reading week Veronika and Tianrun discussed and decided on an issue that we discovered during the data examination. Namely, that almost all ted talks were assigned more than one theme group. This is an issue and counteracts our research question, so we looked for a solution to fix the overlap. When looking at the initial grouping of the data we saw that the 'society' group was highly overrepresented compared to the other theme groups. 
 
-For the 4th May deliverable, I(Camellia) applied the preprocessing pipeline to all 2550 transcripts. The output is a clean text column saved as preprocessed_full.csv in the results folder.
+ We explored the options:
+1. Splitting the 'society' theme group to 2-3 themes. (Drawbacks: Analyzing 7 themes might be overextensive)
+2. Each talk gets assigned to only one theme. The rarest tag wins. for instance, if a talk is tagged with both business and parenting, it would be categorized under education because parenting is rarer and more specific. (Drawback: loose information but we could use ANOVA later to compensate)
+3. Combine the two options
+ 
+Ultimately we chose to combine both options with 6 themes and 2. rule working if a talk is assigned more than one theme. 
+
+Another issue that is currently being fixed is that Camilla accidently preprocessed the 'description' of the talks instead of the actual transcript. This lead to a bit of buffer in Veronika's ability to preform an (initial) sentiment analysis. Instead she preformed a further test on the preprocessed descriptions of the data. 
+
+At this point the transcripts have also been processed (see preprocessed_full.csv), however this has yet to be joined with Tianrun's cleaned and grouped CSV file. 
+
+
 
 
 
