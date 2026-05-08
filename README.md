@@ -117,6 +117,8 @@ Another issue that is currently being fixed is that Camilla accidently preproces
 
 At this point the transcripts have also been processed (see preprocessed_full.csv), however this has yet to be joined with Tianrun's cleaned and grouped CSV file. 
 
+Elijus had started working on the Introduction and Discussion part of the report. 
+
 
 
 
