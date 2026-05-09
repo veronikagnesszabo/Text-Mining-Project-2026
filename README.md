@@ -115,7 +115,7 @@ Ultimately we chose to combine both options with 6 themes and 2. rule working if
 
 Another issue that is currently being fixed is that Camilla accidently preprocessed the 'description' of the talks instead of the actual transcript. This lead to a bit of buffer in Veronika's ability to preform an (initial) sentiment analysis. Instead she preformed a further test on the preprocessed descriptions of the data. 
 
-At this point the transcripts have also been processed (see preprocessed_full.csv), however this has yet to be joined with Tianrun's cleaned and grouped CSV file. 
+At this point the transcripts have also been processed (see preprocessed_full.csv), where the transcripts dataset was merged with the main dataset using the url column, resulting in 2467 talks. The preprocessing pipeline was applied to the transcript column, and a clean_text_joined column was added which rejoins the preprocessed tokens back into a single string. however this has yet to be joined with Tianrun's cleaned and grouped CSV file. 
 
 Elijus had started working on the Introduction and Discussion part of the report. 
 
